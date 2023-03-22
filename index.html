@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/style/index.css">
+    <title>task-manager</title>
+</head>
+<body>
+    
+    <div class="container bg-dark w-100 p-3">
+        <div class="bg-dark top-bar">
+            <input type="text" class="form-control" placeholder="جستجو ..." id="label">
+            <div class="mt-3">
+                <button class="btn btn-success" onclick="onClickHandler()">افزودن</button>
+                <button class="btn btn-info text-light" onclick="onSearchClickHandler()">جستجو</button>
+                <button class="btn btn-danger" onclick="clearList()">حذف کامل لیست</button>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div>
+            <ul class="tasks-box d-grid gap-3">
+
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- javascript section -->
+    <script src="./src/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

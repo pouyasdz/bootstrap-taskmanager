@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
+html,
+body{
+    direction: rtl;
+    font-family: vazirmatn;
+    overflow: hidden;
+}
+ul,li{
+    list-style: none;
+    list-style-type: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.container{
+    max-height: 100vh;
+    height: 100vh;
+}
+
+.divider{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 5vh;
+}
+
+.tasks-box{
+    overflow: auto;
+    height: 75vh;
+}
